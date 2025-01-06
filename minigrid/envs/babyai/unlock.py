@@ -36,7 +36,7 @@ class Unlock(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -132,7 +132,7 @@ class UnlockLocal(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -195,7 +195,7 @@ class KeyInBox(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -265,7 +265,7 @@ class UnlockPickup(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -340,7 +340,7 @@ class BlockedUnlockPickup(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -413,7 +413,7 @@ class UnlockToUnlock(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding

@@ -363,7 +363,7 @@ class GoTo(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -453,7 +453,7 @@ class GoToImpUnlock(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -558,7 +558,7 @@ class GoToSeq(LevelGen):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding

@@ -34,7 +34,7 @@ class PutNextLocal(RoomGridLevel):
     | 1   | right        | Turn right        |
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
-    | 4   | drop         | Unused            |
+    | 4   | drop         | Drops held item   |
     | 5   | toggle       | Unused            |
     | 6   | done         | Unused            |
 
@@ -106,7 +106,7 @@ class PutNext(RoomGridLevel):
     | 1   | right        | Turn right        |
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
-    | 4   | drop         | Unused            |
+    | 4   | drop         | Drops held item   |
     | 5   | toggle       | Unused            |
     | 6   | done         | Unused            |
 

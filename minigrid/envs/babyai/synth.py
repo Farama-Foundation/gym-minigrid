@@ -50,8 +50,8 @@ class Synth(LevelGen):
     | 1   | right        | Turn right        |
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
-    | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 4   | drop         | Drops held item   |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -138,8 +138,8 @@ class SynthLoc(LevelGen):
     | 1   | right        | Turn right        |
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
-    | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 4   | drop         | Drops held item   |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -243,8 +243,8 @@ class SynthSeq(LevelGen):
     | 1   | right        | Turn right        |
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
-    | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 4   | drop         | Drops held item   |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -345,8 +345,8 @@ class MiniBossLevel(LevelGen):
     | 1   | right        | Turn right        |
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
-    | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 4   | drop         | Drops held item   |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -448,8 +448,8 @@ class BossLevel(LevelGen):
     | 1   | right        | Turn right        |
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
-    | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 4   | drop         | Drops held item   |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -544,8 +544,8 @@ class BossLevelNoUnlock(LevelGen):
     | 1   | right        | Turn right        |
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
-    | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 4   | drop         | Drops held item   |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding

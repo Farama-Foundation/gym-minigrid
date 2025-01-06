@@ -39,7 +39,7 @@ class Open(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -109,7 +109,7 @@ class OpenRedDoor(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -171,7 +171,7 @@ class OpenDoor(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -241,7 +241,7 @@ class OpenTwoDoors(RoomGridLevel):
 
     ## Mission Space
 
-    "open the {color} door, the open the {color} door"
+    "open the {color} door, then open the {color} door"
 
     {color} is the color of the box. Can be "red", "green", "blue", "purple",
     "yellow" or "grey".
@@ -255,7 +255,7 @@ class OpenTwoDoors(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
@@ -355,7 +355,7 @@ class OpenDoorsOrder(RoomGridLevel):
     | 2   | forward      | Move forward      |
     | 3   | pickup       | Pick up an object |
     | 4   | drop         | Unused            |
-    | 5   | toggle       | Unused            |
+    | 5   | toggle       | Open/closes door  |
     | 6   | done         | Unused            |
 
     ## Observation Encoding
