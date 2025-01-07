@@ -76,6 +76,8 @@ class MultiRoomEnv(MiniGridEnv):
         minNumRooms,
         maxNumRooms,
         maxRoomSize=10,
+        width=25,
+        height=25,
         max_steps: int | None = None,
         **kwargs,
     ):
@@ -91,15 +93,13 @@ class MultiRoomEnv(MiniGridEnv):
 
         mission_space = MissionSpace(mission_func=self._gen_mission)
 
-        self.size = 25
-
         if max_steps is None:
             max_steps = maxNumRooms * 20
 
         super().__init__(
             mission_space=mission_space,
-            width=self.size,
-            height=self.size,
+            width=width,
+            height=height,
             max_steps=max_steps,
             **kwargs,
         )
