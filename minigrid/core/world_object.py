@@ -288,6 +288,10 @@ class Box(WorldObj):
         fill_coords(img, point_in_rect(0.16, 0.84, 0.47, 0.53), c)
 
     def toggle(self, env, pos):
+        # if the box is empty, do nothing
+        if self.contains is None:
+            return False
+
         # Replace the box by its contents
         env.grid.set(pos[0], pos[1], self.contains)
         return True
